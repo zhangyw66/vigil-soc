@@ -1,0 +1,4 @@
+timestamp,source,event_type,severity,host,user,src_ip,dst_ip,process,cmdline
+2026-10-01T13:00:00Z,edr,process_start,high,web-02,svc_web,10.0.0.6,45.45.45.45,powershell.exe,powershell.exe -enc d2hvYW1p
+2026-10-01T13:05:00Z,edr,file_access,info,laptop-09,bob,10.0.0.43,10.20.30.41,chrome.exe,chrome.exe --profile-directory=Default
+2026-10-01T13:10:00Z,edr,user_logon,low,laptop-09,bob,10.0.0.43,,winlogon.exe,winlogon.exe /user:bob

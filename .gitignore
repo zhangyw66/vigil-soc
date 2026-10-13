@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Tooling
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime / local data
+.vigil/
+*.sqlite3
+*.sqlite
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets — never commit
+.env
+*.pem
+
+# Distribution archive
+vigil-src.zip

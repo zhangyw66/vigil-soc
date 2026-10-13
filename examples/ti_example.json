@@ -1,0 +1,6 @@
+{
+  "_comment": "EXAMPLE threat-intelligence indicators for local testing only. Replace with your own vetted feeds; never commit real production IOCs without authorization.",
+  "malicious_hashes": ["aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"],
+  "malicious_ips": ["45.45.45.45", "198.51.100.7"],
+  "malicious_domains": ["evil.example.net", "malware.test.example"]
+}
